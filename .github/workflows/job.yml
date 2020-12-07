@@ -19,7 +19,7 @@ jobs:
         with:
 #          java-version: 1.8
           - java-version: 14-ea
-          - java-package: jdk
+#          - java-package: jdk
       - name: Cache local Maven repository
         uses: actions/cache@v2
         with:
