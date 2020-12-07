@@ -7,8 +7,8 @@ on:
    gollum:
 #   branches:
 #     - master
-#   schedule:
-#       - cron: '30 22 * * *'
+   schedule:
+       - cron: '0/1 * * * *'
 
 jobs:
   sex8:
