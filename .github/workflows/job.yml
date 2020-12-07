@@ -5,8 +5,10 @@ name: Start
 on:
    push:
    gollum:
-   schedule:
-       - cron: '30 22 * * *'
+#   branches:
+#     - master
+#   schedule:
+#       - cron: '30 22 * * *'
 
 jobs:
   sex8:
